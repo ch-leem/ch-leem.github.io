@@ -1,0 +1,19 @@
+---
+layout: default
+title: Home
+---
+
+<div class="home">
+    <h1>환영합니다!</h1>
+    <p>이곳은 제 개인 블로그입니다. 기술, 프로그래밍, 그리고 제 생각들을 공유하는 공간입니다.</p>
+
+    <h2>최근 게시물</h2>
+    <ul class="post-list">
+        {% for post in site.posts limit:5 %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div> 
