@@ -46,4 +46,78 @@ footer {
     padding: 2rem;
     background-color: #f8f9fa;
     margin-top: 2rem;
+}
+
+/* 포스트 스타일 */
+.post {
+    margin-bottom: 4rem;
+}
+
+.post-header {
+    margin-bottom: 2rem;
+}
+
+.post-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.post-meta {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.post-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.post-content h2 {
+    margin-top: 2rem;
+    color: #2c3e50;
+}
+
+.post-content h3 {
+    margin-top: 1.5rem;
+    color: #34495e;
+}
+
+.post-content code {
+    background-color: #f8f9fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.post-content pre {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.post-content blockquote {
+    border-left: 4px solid #e9ecef;
+    margin: 0;
+    padding-left: 1rem;
+    color: #666;
+}
+
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.post-navigation a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.post-navigation a:hover {
+    text-decoration: underline;
 } 
